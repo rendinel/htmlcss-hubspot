@@ -1,0 +1,20 @@
+.info-features {
+    width: 100%;
+    font-size: 18px;
+    /* line-height per centrare in altezza */
+    line-height: 20px;
+}
+.info-features:before {
+    content: '';
+    display: block;
+    float: right;
+    width: 65%;
+    height: 2px;
+    /* line-height 20px - 2px = 18px */
+    margin-top: 9px;
+    background-color: #899397;
+}
+ .info features applicato a popular features che ha un tag h4
+
+linear-gradient(45deg,#00a4bd,#00bda5)
+gradiente come backgroud
