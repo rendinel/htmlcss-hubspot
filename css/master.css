@@ -143,6 +143,7 @@ main{
   width: 100%;
   height: 100%;
   background-color: #F4F9FD ;
+  color: #33475B;
 }
 .content{
   height: 1500px;
@@ -168,7 +169,7 @@ margin-top: 30px;
 
 .card{
 background-color: #FFFFFF;
-height: 400px;
+height: 300px;
 margin-top: 30px;
 margin-bottom: 30px;
 }
@@ -176,19 +177,17 @@ margin-bottom: 30px;
 .cardleft{
   width: 30%;
   height: 100%;
-  border: 1px solid black;
 }
 
 .cardright{
   width: 70%;
   height: 100%;
-  border: 1px solid black;
 }
 
 .book{
-  height: 143px;
+  height: 80px;
   width: 105px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .learn{
@@ -202,23 +201,40 @@ margin-bottom: 30px;
   background-color:#FE775A;
   position: relative;
   left: 38%;
+  top: 0.1%;
+  color: white;
 }
 
 .column{
   width: 26%;
-  height: 600px;
+  height: 500px;
   background-color: #FFFFFF;
-  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.column >.contentimage,h3,p,h4,.facont{
+  padding-bottom: 20px;
+}
+.facont{
+  padding-right: 150px;
+}
+.facont > .fa{
+  color: #FE8167;
 }
 
 .second{
   margin: 0% 11%;
 }
 
-hr{
-  width: 60px;
+.rh2{
+  width: 400px;
   display: inline-block;
   vertical-align: middle;
+  border: 1px solid #899397;
+}
+
+.textblock{
+  margin-top: 50px
 }
 
 .textblock > ul{
@@ -228,8 +244,16 @@ hr{
 
 .textblock > ul > li{
   display: inline-block;
+  padding-left: 15px;
 }
 
+.textblock > h3{
+  padding-bottom: 30px;
+}
+
+.textblock > p,strong{
+  padding-bottom: 20px;
+}
 .check{
   width: 19px;
   color: orange;
@@ -250,6 +274,7 @@ hr{
 }
 
 .learn2{
+  color: white;
   margin: 0 auto;
   height: 40px;
   line-height: 40px;
@@ -259,16 +284,23 @@ hr{
   display: inline-block;
   text-align: center;
   background-color:#FE775A;
+  margin-top: 60px;
 }
 
 .contgrad{
   width: 100%;
   height: 600px;
   background: linear-gradient(45deg,#00a4bd,#00bda5);
+  color: white;
 }
 
 .gradientcontainer{
   height: 600px;
+}
+
+.gradientcontainer > h2{
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .row{
@@ -327,7 +359,18 @@ hr{
 .ncust{
   width: 25%;
   height: 100%;
-  border: 2px solid black;
+}
+
+.ncusttext{
+ margin-top: 74.5px;
+}
+
+.ncusttext > h2{
+ padding-bottom: 15px;
+}
+
+.ncusttext > div{
+ padding-bottom: 10px;
 }
 
 .logcust{
@@ -339,7 +382,6 @@ hr{
   width: 80%;
   height: 80%;
   margin:24px 90px;
-  border: 1px solid black;
 }
 
 .boxcont{
@@ -353,19 +395,70 @@ hr{
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
-  border:2px solid red;
+}
+
+.logoboxtwo{
+  width: 25%;
+  height: 50px;
+  background-image: url(../images/soundcloud.webp);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logoboxthree{
+  width: 25%;
+  height: 50px;
+  background-image: url(../images/subaru.webp);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logobox4{
+  width: 25%;
+  height: 50px;
+  background-image: url(../images/wwf.webp);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logobox5{
+  width: 25%;
+  height: 50px;
+  background-image: url(../images/g2.webp);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logobox5{
+  width: 25%;
+  height: 50px;
+  background-image: url(../images/vmware.webp);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logobox6{
+  width: 25%;
+  height: 50px;
+  background-image: url(../images/classpass.webp);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .custdown{
   height: 60%;
   width: 100%;
-  border: 2px solid black;
 }
 
 .growingbox{
   width: 70%;
   height: 100%;
-    border: 2px solid black;
 }
 
 .happycustomerpic{
