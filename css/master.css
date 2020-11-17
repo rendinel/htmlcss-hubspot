@@ -453,3 +453,27 @@ a{
 
 
 /* class main end */
+
+/* errori css */
+/*
+3	*	Property box-sizing doesn't exist in CSS level 2.1 but exists in : border-box border-box
+26		The pseudo-element ::after can't appear here in the context css21 [after]
+37	.button	Property border-radius doesn't exist in CSS level 2.1 but exists in : 5px 5px
+199	.learn	Property border-radius doesn't exist in CSS level 2.1 but exists in : 5px 5px
+258	.learn2	Property border-radius doesn't exist in CSS level 2.1 but exists in : 5px 5px
+267	.contgrad	Value Error : background Too many values or values are not recognized : linear-gradient(45deg,#00a4bd,#00bda5) linear-gradient(45deg,#00a4bd,#00bda5)
+285		Unknown pseudo-element or pseudo-class :nth-child
+285		Unknown pseudo-element or pseudo-class :nth-child
+289		Unknown pseudo-element or pseudo-class :nth-child
+289		Unknown pseudo-element or pseudo-class :nth-child
+289		Unknown pseudo-element or pseudo-class :nth-child
+289		Unknown pseudo-element or pseudo-class :nth-child
+293		Unknown pseudo-element or pseudo-class :nth-child
+293		Unknown pseudo-element or pseudo-class :nth-child
+293		Unknown pseudo-element or pseudo-class :nth-child
+302		The pseudo-element ::after can't appear here in the context css21 [after]
+353	.logobox	Property background-size doesn't exist in CSS level 2.1 but exists in : 40% 40%
+375	.happycustomerpic	Property background-size doesn't exist in CSS level 2.1 but exists in : 80% 80%
+377	.happycustomerpic	Value Error : background-position Too many values or values are not recognized : top 10px right 0 top 10px right 0
+385	.gethub	Property border-radius doesn't exist in CSS level 2.1 but exists in : 5px 5px
+415	.contactbutton	Property border-radius doesn't exist in CSS level 2.1 but exists in : 5px 5px */
